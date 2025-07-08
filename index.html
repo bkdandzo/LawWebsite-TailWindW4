@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header
+      class="fixed top-0 left-0 w-full z-50 border-b border-white shadow-md"
+    >
+      <nav
+        class="px-12 py-4 bg-white shadow-md justify-center items-center flex flex-col"
+      >
+        <!-- Logo of Law -->
+        <div class="justify-items-center">
+          <img src="images/lawfirmlogo.jpg" alt="Law Firm Logo" />
+        </div>
+
+        <!-- NavBar Links-->
+        <div class="flex space-x-7 mt-9 mb-9">
+          <a
+            href="#"
+            class="text-gray-500 text-xl font-medium hover:text-blue-600"
+            >Home</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 text-xl font-medium hover:text-blue-600"
+            >Practice Areas</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 text-xl font-medium hover:text-blue-600"
+            >About Ross</a
+          >
+          <a
+            href="#"
+            class="text-gray-500 text-xl font-medium hover:text-blue-600"
+            >Contact</a
+          >
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 text-gray-500 hover:text-blue-600 cursor-pointer"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-4.35-4.35M17 11a6 6 0 11-12 0 6 6 0 0112 0z"
+            />
+          </svg>
+        </div>
+      </nav>
+
+      <div class="absolute -bottom-8 left-1/2 transform -transalte-x-1/2 z-20">
+        <img
+          src="images/lawlogo.png"
+          alt="Small Logo"
+          class="w-16 h-16 rounded-full border-5 border-white bg-white items-center"
+        />
+      </div>
+    </header>
+
+    <!-- Hero Page -->
+    <div class="relative -mt-15">
+      <video autoplay muted loop class="w-full h-[1900px]">
+        <source src="images/lawFirmVideos.mp4" type="video/mp4" />
+      </video>
+
+      <div class="absolute inset-x-0 top-60 flex justify-center pt-60">
+        <div class="bg-opacity-90 mx-4 items-center justify-center text-center">
+          <div class="relative flex items-center justify-center mt-25">
+            <img src="images/super.webp" />
+          </div>
+
+          <br />
+
+          <div class="flex justify-center items-center mt-6">
+            <hr class="w-20 border-white" />
+            <h1 class="text-5xl text-white font-bold mx-5">
+              CLIENT-CENTRIC REPRESENTATION
+            </h1>
+            <hr class="w-20 border-white" />
+          </div>
+
+          <p class="text-white text-lg font-semibold">
+            <br />
+            We offer a wider variety of planning and transactional services for
+            your business and your personal life. We believe <br />
+            in the value of perparedness, both in business and in life, and we
+            help our clients plan and prepare for the future <br />
+            so that they and well taken care of
+          </p>
+
+          <div class="mt-[5rem]">
+            <button
+              class="w-55 h-10 bg-gray-500 font-semibold rounded-2xl text-white"
+            >
+              Schedule an appointment
+            </button>
+          </div>
+
+          <br />
+        </div>
+      </div>
+    </div>
+
+    <!-- Practice Area -->
+    <div class="py-5 -mt-90">
+      <div class="flex justify-center items-center">
+        <hr class="w-20 border-gray-900" />
+        <h1 class="font-sans text-4xl text-gray-900 mx-8">Practice Area</h1>
+        <hr class="w-20 border-gray-900" />
+      </div>
+
+      <a
+        href="Click here to learn more"
+        class="font-sans text-2xl flex justify-center text-center underline mt-5 text-blue-800 hover:text-blue-600 italic"
+        >Click here to learn more</a
+      >
+
+      <div class="flex justify-center space-x-3">
+        <div class="w-70 text-center">
+          <img
+            src="images/businessIcon.png"
+            alt="Briefcase"
+            class="place-self-center"
+          />
+          <a href="" class="text-blue-500 text-3xl underline underline-offset-8"
+            >Business</a
+          >
+          <p class="text-sm text-gray-500 mt-4">
+            We work with businesses and business owners in every stage of the
+            cycle, from formation, to ongoing operation and growth of the
+            company, preparation of contracts, protection of intellectual
+            property, and the sale or closing of a business.
+          </p>
+        </div>
+
+        <div class="w-70 text-center">
+          <img
+            src="images/realEstateIcon.png"
+            alt="Real-Estate"
+            class="place-self-center"
+          />
+          <a href="" class="text-blue-500 text-3xl underline underline-offset-8"
+            >Real Estate</a
+          >
+          <p class="text-sm text-gray-500 mt-4">
+            We work with businesses and individuals on a wide variety of real
+            estate matters, including lease review and negotiattion, preparation
+            of deeds and purchase and sale agreements, and boundary line and
+            easement issues.
+          </p>
+        </div>
+
+        <div class="w-70 text-center">
+          <img
+            src="images/estatesIcon.png"
+            alt="Estates"
+            class="place-self-center"
+          />
+          <a href="" class="text-blue-500 text-3xl underline underline-offset-8"
+            >Estates</a
+          >
+          <p class="text-sm text-gray-500 mt-4">
+            We help people to protect their assets and their families through
+            comprehensive estate planning services, including the preparation of
+            Wills, Trusts, Power of Attorney, and Healthcare Directives. We also
+            help with the administration of estates through Probate.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Feedback -->
+    <section class="mb-10">
+      <div
+        class="relative top-[3rem] bg-gradient-to-r from bg-sky-500 via-sky-350 to-sky-500 w-full h-100"
+      >
+        <p class="text-3xl text-center text-white font-semi-bold pt-[5rem]">
+          Client Feedback
+        </p>
+
+        <br />
+
+        <p class="italic text-center text-2xl text-white">
+          "I hired Ross recently and was impressed by his attention to detail. I
+          felt taken care of and although I<br />
+          only needed him for what may be considered a pretty straight forward
+          selling of my small business, I <br />
+          felt he went above and beyond to look out for me. Thank you Ross."
+        </p>
+
+        <p class="pt-3 italic text-center text-xl text-white">
+          - Heidi H., Business Client
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact Us-->
+    <section class="bg-gray-200">
+      <div class="pt-10 py-20">
+        <div class="flex justify-center items-center text-2xl">
+          <hr class="w-30" />
+          <p class="text-4xl px-5">Contact us</p>
+          <hr class="w-30" />
+        </div>
+      </div>
+
+      <!-- Click To Schedule-->
+      <div class="text-center -mt-20">
+        <a href="" class="text-2xl text-blue-400 underline"
+          >Or click here to schedule a meeting</a
+        >
+      </div>
+
+      <!-- Name -->
+      <div class="text-center py-9">
+        <p class="text-2xl font-bold text-gray-600">Edmonds Office</p>
+      </div>
+
+      <!-- Item -->
+      <div class="flex justify-center space-x-20">
+        <div class="space-y-2">
+          <form>
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="bg-white p-3 border-1 border-gray-400 w-100 mb-5"
+            />
+            <br />
+            <input
+              type="email"
+              name="nme"
+              placeholder="Email"
+              class="bg-white p-3 border-1 border-gray-400 w-100 mb-5"
+            />
+            <br />
+            <input
+              type="tel"
+              name="name"
+              placeholder="Phone"
+              class="bg-white p-3 border-1 border-gray-400 w-100 mb-5"
+            />
+            <br />
+            <textarea
+              name="name"
+              id=""
+              class="bg-white p-3 border-1 w-100 mb-5 border-gray-400"
+            >
+            Message</textarea
+            >
+          </form>
+        </div>
+
+        <div class="">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.4362850905973!2d-122.38690002418375!3d47.81176227378839!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54901afead181f1d%3A0xa0e791678f1b874!2s144%20Railroad%20Ave%20UNIT%20308%2C%20Edmonds%2C%20WA%2098020%2C%20USA!5e0!3m2!1sen!2sgh!4v1750830189958!5m2!1sen!2sgh"
+            width="300"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div class="space-y-4">
+          <p class="text-gray-500 text-sm">
+            <i class="fa-solid fa-location-dot"></i> 144 Railroad Ave, Suite
+            308<br />Edmonds, WA 98020
+          </p>
+          <p class="text-gray-500 text-sm">
+            <i class="fa-regular fa-clock"></i> By Appointment Only<br />
+            Monday - Friday
+          </p>
+          <p class="text-gray-500 text-sm">
+            <i class="fa fa-phone" aria-hidden="true"></i> (425) 771-4846
+          </p>
+          <p class="text-gray-500 text-sm">
+            <i class="fa-solid fa-envelope"></i>ross@rossgardnerlaw.com
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="flex justify-center space-x-40 pt-30 pb-10">
+        <!-- First -->
+        <div>
+          <a href="#" class="text-blue-400"
+            >Disclaimer<br />
+            Privacy Policy</a
+          >
+        </div>
+
+        <!-- Second -->
+        <div>
+          <p class="text-gray-500 font-bold text-sm">Edmonds office Address:</p>
+          <p class="text-gray-500 text-sm pb-10">
+            144 Realroad Ave<br />
+            Suit 308<br />
+            Edmonds, WA 98020
+          </p>
+          <p class="text-gray-500 font-bold text-sm">Mailing Address:</p>
+          <p class="text-gray-500 text-sm">
+            12918 Mukiteo Speedway<br />
+            Suite C23, PMB #584<br />Lynnwood, WA 98087
+          </p>
+        </div>
+
+        <!-- third -->
+        <div>
+          <p class="text-gray-500 font-bold text-sm">Contact Us</p>
+          <p class="text-gray-500 text-sm pb-10">
+            425-771-4846<br />ross@rossgardnerlaw.com
+          </p>
+        </div>
+
+        <!-- fourth -->
+        <div class="px-20">
+          <i class="fa-brands fa-square-facebook text-4xl text-gray-400"></i>
+          <i class="fa-brands fa-invision text-4xl text-gray-400"></i>
+        </div>
+      </div>
+
+      <hr class="w-250 mx-30 text-gray-300" />
+      <div class="px-40">
+        <p class="text-sm text-gray-500 italic font-bold pt-4 pb-40">
+          © Ross D. Gardner, PLLC, 2024, All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
